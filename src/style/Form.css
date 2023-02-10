@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f7cac9, #92a8d1)
+}
+
+.container {
+    /* max-width: 700px; */
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 35px 30px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+
+.form-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+    justify-content: space-between;
+}
+
+.input-box {
+    margin-bottom: 25px;
+    width: calc(100% / 2 - 20px);
+}
+
+.details {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 45px;
+    width: 97%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #92a8d1
+}
+
+.btn {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #f7cac9;
+    color: #92a8d1;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+}
+
+/* .btn-link {
+    color: #f5f5f5;
+    display: block;
+    font-size: .75em;
+    transition: color .3s ease-out;
+} */
+   
+   /*Hover & focus*/
+.field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+   
+.btn:hover {
+    background-color: #92a8d1;
+    color: #f7cac9;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+   
+/* .btn-link:hover {
+    color: #ffeba7;
+} */
+
+/* HASIL */
+.result-details {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 35px 30px
+}
+
+.data {
+    text-align: justify;
+    margin: 25px auto;
+    padding-bottom: 25px
+}
+
+.details-result {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px
+}
+
